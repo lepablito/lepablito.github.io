@@ -1,0 +1,18 @@
+# Origin-level robots.txt for https://lepablito.github.io/
+#
+# This is the ONLY robots.txt any crawler reads for this origin. Crawlers
+# request it at the domain root and nowhere else, so a robots.txt committed
+# inside a project-site repo (e.g. professional-portfolio/public/robots.txt,
+# which ends up at /professional-portfolio/robots.txt) is never fetched.
+# That is why this repo exists — see README.md.
+#
+# Scope note: this file governs EVERY GitHub Pages project site under
+# lepablito.github.io. It is deliberately permissive, matching the previous
+# behaviour (a missing robots.txt means "allow everything").
+
+User-agent: *
+Allow: /
+
+# Sitemaps must be listed here to be discovered automatically. One line per
+# project site; add a line when a new site gets a sitemap.
+Sitemap: https://lepablito.github.io/professional-portfolio/sitemap.xml
