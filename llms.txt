@@ -1,0 +1,36 @@
+# Pablo Marcos Parra — Applied AI Engineer
+
+> Applied AI Engineer with 4+ years taking Generative AI and LLM systems from prototype to production, focused on autonomous agents, RAG, and cloud microservice architectures. Based in Valladolid, Spain, currently on the AI Team at Santander Consumer Finance Global Services (Grupo Santander).
+
+This is the personal portfolio of Pablo Marcos Parra. The site is bilingual: English lives at the root and Spanish under `/es/`. The links below point to the English pages; where a Spanish translation exists, it lives at the same path with `/es/` after the base (both projects and both articles are translated). The whole portfolio is served under `https://lepablito.github.io/professional-portfolio/`.
+
+## Key pages
+
+- [Home](https://lepablito.github.io/professional-portfolio/): Overview, current role, and featured work.
+- [About](https://lepablito.github.io/professional-portfolio/about/): Full background — experience (Santander Consumer Finance GS, AIR Institute), education (MSc Data Science at UOC, BEng Computer Engineering and BSc Statistics at Universidad de Valladolid), certifications, community work (GDG Valladolid, Python teaching), and skills.
+- [Projects](https://lepablito.github.io/professional-portfolio/projects/): Indexed list of engineering case studies.
+- [Blog](https://lepablito.github.io/professional-portfolio/blog/): Technical write-ups on applied AI and LLM tooling.
+
+## Projects
+
+- [Multi-agent architecture for measuring the energy consumption of LLMs](https://lepablito.github.io/professional-portfolio/projects/llm-energy-benchmark/): MSc thesis in Data Science (UOC, defended June 2026). A LangGraph multi-agent harness that measured 2,700 LLM inferences to quantify how much extra energy a prompting technique costs versus the answer quality it buys. Stack: Python, LangGraph, Anthropic API, Ollama, CodeCarbon, EcoLogits, SQLite. Code: https://github.com/lepablito/TFM_UOC_PabloMarcosParra
+- [Certification exam simulator with an original question bank](https://lepablito.github.io/professional-portfolio/projects/certification-exam-simulator/): Generates an original, domain-weighted question bank from official certification guides and drills it under exam conditions with spaced repetition, instead of relying on ten sample questions or leaked dumps. Stack: Python, FastAPI, SQLite, Pydantic, React 19, TypeScript, Vite, Gemini API, Anthropic API, Ollama.
+
+## Writing
+
+- [Retrieval isn't the problem. Ranking is.](https://lepablito.github.io/professional-portfolio/blog/rag-wiki-dnd/): How retrieval works in a RAG "Oracle" over 100+ sessions of D&D notes — three search paths fused by rank, a reranker that only helps as long as it never sees the raw text, session-level chunking, and strict source citation. Published 2026-08-07.
+- [Keeping the harness, swapping the model](https://lepablito.github.io/professional-portfolio/blog/claude-code-on-other-models/): What it takes to run Claude Code against NVIDIA NIM and local Ollama models through a LiteLLM proxy when the subscription quota runs out — and why the model that benchmarks best is not the one that works. Published 2026-07-25.
+
+## Contact
+
+- GitHub: https://github.com/lepablito
+- LinkedIn: https://www.linkedin.com/in/pablomarcosparra/
+- Email: pablo.marcos.parra@gmail.com
+
+## Optional
+
+- [Spanish portfolio (Español)](https://lepablito.github.io/professional-portfolio/es/): Full Spanish mirror. Each page above has a Spanish counterpart at the same path under `/es/`.
+- [CV (English, PDF)](https://lepablito.github.io/professional-portfolio/cv.pdf)
+- [CV (Español, PDF)](https://lepablito.github.io/professional-portfolio/cv-es.pdf)
+- [MSc thesis — full text (PDF)](https://lepablito.github.io/professional-portfolio/docs/tfm-pablo-marcos-parra.pdf): Complete thesis behind the LLM energy-consumption project.
+- [Sitemap](https://lepablito.github.io/professional-portfolio/sitemap.xml)
